@@ -1,0 +1,26 @@
+.talk-to-sales{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 14rem;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(/Images/bg.svg) no-repeat right padding-box, #e2f7e3;
+    border-radius: 20px;
+}
+.talk-to-sales-question{
+max-width: 45%;
+    line-height: 32px;
+    letter-spacing: -.014em;
+    color: #1f6b45;
+    padding-left: 10.7%;
+}
+
+.btn{
+    color: #353a47;
+    border: 1px solid #c2c2c2;
+    background-color: #fff;
+    box-shadow: 0 0 #00c3603d;
+    padding: 5px;
+}

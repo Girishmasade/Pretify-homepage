@@ -1,0 +1,57 @@
+ .imgarrow{
+    content: "";
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+    height: 64px;
+    background-color: #fff;
+    mask-image: url(../../public/Images/arrowDown.svg);
+    mask-repeat: no-repeat;
+}
+
+.box{
+    position: relative;
+    top: 200px;
+   left: 450px;
+   border-radius: 10px;
+   z-index: 1;
+    width: 400px;
+    height: 400px;
+}
+
+.box img{
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+
+.boxData1{
+    width: 150px;
+    height: 100px;
+    mask-repeat: no-repeat;
+    background-color: rgb(142, 255, 170);
+    position: relative;
+    top: 220px;
+    z-index: 999;
+    border: 1px solid white;
+    left: 400px;
+    border-radius: 10px;
+}
+
+.boxData1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.boxDataContainer{
+    position: relative;
+    top: 200px;
+    left: 330px;
+    border-radius: 10px;
+    width: 800px;
+    height: 350px;
+    background-color: #fff;
+}
+
